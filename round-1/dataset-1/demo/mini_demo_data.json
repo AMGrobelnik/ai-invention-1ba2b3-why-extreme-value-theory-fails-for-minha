@@ -1,0 +1,96 @@
+{
+  "metadata": {
+    "total_datasets": 1,
+    "total_examples": 20,
+    "source_datasets": [
+      "cardiffnlp/tweet_eval (sentiment)"
+    ]
+  },
+  "datasets": [
+    {
+      "dataset": "cardiffnlp/tweet_eval (sentiment)",
+      "examples": [
+        {
+          "input": "\"QT @user In the original draft of the 7th book, Remus Lupin survived the Battle of Hogwarts. #HappyBirthdayRemusLupin\"",
+          "output": "tweet_eval_sentiment_0",
+          "metadata_source": "cardiffnlp/tweet_eval (sentiment)",
+          "metadata_word_count": 18,
+          "metadata_shingle_count": 102,
+          "metadata_doc_id": "tweet_eval_sentiment_0"
+        },
+        {
+          "input": "\"Ben Smith / Smith (concussion) remains out of the lineup Thursday, Curtis #NHL #SJ\"",
+          "output": "tweet_eval_sentiment_1",
+          "metadata_source": "cardiffnlp/tweet_eval (sentiment)",
+          "metadata_word_count": 14,
+          "metadata_shingle_count": 77,
+          "metadata_doc_id": "tweet_eval_sentiment_1"
+        },
+        {
+          "input": "Sorry bout the stream last night I crashed out but will be on tonight for sure. Then back to Minecraft in pc tomorrow night.",
+          "output": "tweet_eval_sentiment_2",
+          "metadata_source": "cardiffnlp/tweet_eval (sentiment)",
+          "metadata_word_count": 24,
+          "metadata_shingle_count": 107,
+          "metadata_doc_id": "tweet_eval_sentiment_2"
+        },
+        {
+          "input": "Chase Headley's RBI double in the 8th inning off David Price snapped a Yankees streak of 33 consecutive scoreless innings against Blue Jays",
+          "output": "tweet_eval_sentiment_3",
+          "metadata_source": "cardiffnlp/tweet_eval (sentiment)",
+          "metadata_word_count": 23,
+          "metadata_shingle_count": 129,
+          "metadata_doc_id": "tweet_eval_sentiment_3"
+        },
+        {
+          "input": "So disappointed in wwe summerslam! I want to see john cena wins his 16th title",
+          "output": "tweet_eval_sentiment_7",
+          "metadata_source": "cardiffnlp/tweet_eval (sentiment)",
+          "metadata_word_count": 15,
+          "metadata_shingle_count": 76,
+          "metadata_doc_id": "tweet_eval_sentiment_7"
+        },
+        {
+          "input": "\"This is the last Sunday w/o football .....,NFL is back baby\"",
+          "output": "tweet_eval_sentiment_8",
+          "metadata_source": "cardiffnlp/tweet_eval (sentiment)",
+          "metadata_word_count": 11,
+          "metadata_shingle_count": 53,
+          "metadata_doc_id": "tweet_eval_sentiment_8"
+        },
+        {
+          "input": "Just said hello to Dennis Kucinich as he walked casually through campus with his #hotwife. He's on 22nd st!",
+          "output": "tweet_eval_sentiment_11",
+          "metadata_source": "cardiffnlp/tweet_eval (sentiment)",
+          "metadata_word_count": 19,
+          "metadata_shingle_count": 102,
+          "metadata_doc_id": "tweet_eval_sentiment_11"
+        },
+        {
+          "input": "Super excited for homecoming Saturday with Monroe! :D my new nephew is here but I can't see him :(",
+          "output": "tweet_eval_sentiment_12",
+          "metadata_source": "cardiffnlp/tweet_eval (sentiment)",
+          "metadata_word_count": 19,
+          "metadata_shingle_count": 99,
+          "metadata_doc_id": "tweet_eval_sentiment_12"
+        },
+        {
+          "input": "That sucks if you have to take the SATs tomorrow",
+          "output": "tweet_eval_sentiment_13",
+          "metadata_source": "cardiffnlp/tweet_eval (sentiment)",
+          "metadata_word_count": 10,
+          "metadata_shingle_count": 44,
+          "metadata_doc_id": "tweet_eval_sentiment_13"
+        },
+        {
+          "input": "@user Well said on HMW. Can you now address why Texans fans file out of the stadium midway through the 4th qtr of every game?",
+          "output": "tweet_eval_sentiment_10",
+          "metadata_source": "cardiffnlp/tweet_eval (sentiment)",
+          "metadata_word_count": 25,
+          "metadata_shingle_count": 114,
+          "metadata_doc_id": "tweet_eval_sentiment_10"
+        }
+      ]
+    }
+  ]
+}

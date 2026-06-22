@@ -1,0 +1,87 @@
+{
+  "metadata": {
+    "evaluation_name": "Comprehensive Evaluation of Uncertainty Quantification Methods for MinHash",
+    "num_document_pairs": 10,
+    "num_methods": 5,
+    "methods": [
+      "EVT-Gumbel",
+      "EVT-Weibull",
+      "Corrected Bootstrap",
+      "Analytical Binomial",
+      "Bayesian"
+    ],
+    "confidence_levels": [
+      0.95
+    ],
+    "num_hashes": 32,
+    "k_shingle": 3,
+    "num_bootstrap": 100
+  },
+  "datasets": [
+    {
+      "dataset": "minhash_uq_evaluation",
+      "examples": [
+        {
+          "input": "Doc1 (57 shingles) vs Doc2 (79 shingles), true Jaccard=0.097",
+          "output": "EVT-Gumbel=0.102, CI=[0.060, 0.167]; EVT-Weibull=0.102, CI=[0.061, 0.166]; Corrected Bootstrap=0.097, CI=[0.024, 0.106]; Analytical Binomial=0.102, CI=[0.055, 0.167]; Bayesian=0.108, CI=[0.061, 0.166]",
+          "metadata_dataset": "cardiffnlp/tweet_eval (sentiment)",
+          "metadata_true_jaccard": 0.0967741935483871,
+          "metadata_shingle_count1": 57,
+          "metadata_shingle_count2": 79,
+          "metadata_mean_shingle_count": 68.0,
+          "metadata_jaccard_regime": "low",
+          "text1": "I love this movie! It was absolutely amazing and wonderful.",
+          "text2": "I love this film! It was absolutely amazing and great."
+        },
+        {
+          "input": "Doc1 (105 shingles) vs Doc2 (126 shingles), true Jaccard=0.080",
+          "output": "EVT-Gumbel=0.094, CI=[0.054, 0.158]; EVT-Weibull=0.094, CI=[0.055, 0.157]; Corrected Bootstrap=0.080, CI=[0.028, 0.085]; Analytical Binomial=0.094, CI=[0.049, 0.158]; Bayesian=0.100, CI=[0.055, 0.157]",
+          "metadata_dataset": "cardiffnlp/tweet_eval (sentiment)",
+          "metadata_true_jaccard": 0.07981220657276995,
+          "metadata_shingle_count1": 105,
+          "metadata_shingle_count2": 126,
+          "metadata_mean_shingle_count": 115.5,
+          "metadata_jaccard_regime": "low",
+          "text1": "The weather today is quite nice and sunny. I think I will go to the park and enjoy the beautiful day. Maybe I will bring a book and read under the trees.",
+          "text2": "The weather today is really nice and sunny. I think I will go to the park and enjoy the beautiful day. Perhaps I will bring a book and read under the shade."
+        },
+        {
+          "input": "Doc1 (53 shingles) vs Doc2 (67 shingles), true Jaccard=0.053",
+          "output": "EVT-Gumbel=0.039, CI=[0.016, 0.090]; EVT-Weibull=0.039, CI=[0.017, 0.088]; Corrected Bootstrap=0.053, CI=[0.012, 0.069]; Analytical Binomial=0.039, CI=[0.013, 0.089]; Bayesian=0.046, CI=[0.017, 0.088]",
+          "metadata_dataset": "cardiffnlp/tweet_eval (sentiment)",
+          "metadata_true_jaccard": 0.05263157894736842,
+          "metadata_shingle_count1": 53,
+          "metadata_shingle_count2": 67,
+          "metadata_mean_shingle_count": 60.0,
+          "metadata_jaccard_regime": "low",
+          "text1": "Python is a great programming language for data science.",
+          "text2": "Java is a popular programming language for enterprise apps."
+        },
+        {
+          "input": "Doc1 (89 shingles) vs Doc2 (92 shingles), true Jaccard=0.250",
+          "output": "Demo example with medium Jaccard similarity",
+          "metadata_dataset": "cardiffnlp/tweet_eval (sentiment)",
+          "metadata_true_jaccard": 0.25,
+          "metadata_shingle_count1": 89,
+          "metadata_shingle_count2": 92,
+          "metadata_mean_shingle_count": 90.5,
+          "metadata_jaccard_regime": "medium",
+          "text1": "Machine learning algorithms can solve many complex problems in computer vision and natural language processing.",
+          "text2": "Machine learning models can solve many difficult problems in computer vision and natural language understanding."
+        },
+        {
+          "input": "Doc1 (42 shingles) vs Doc2 (45 shingles), true Jaccard=0.500",
+          "output": "Demo example with high Jaccard similarity",
+          "metadata_dataset": "cardiffnlp/tweet_eval (sentiment)",
+          "metadata_true_jaccard": 0.5,
+          "metadata_shingle_count1": 42,
+          "metadata_shingle_count2": 45,
+          "metadata_mean_shingle_count": 43.5,
+          "metadata_jaccard_regime": "high",
+          "text1": "The cat sat on the mat and slept all day long in the sun.",
+          "text2": "The cat sat on the mat and slept all day long in the warm sun."
+        }
+      ]
+    }
+  ]
+}

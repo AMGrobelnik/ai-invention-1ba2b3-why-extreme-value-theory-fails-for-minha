@@ -1,0 +1,97 @@
+{
+  "metadata": {
+    "total_datasets": 1,
+    "total_examples": 10,
+    "source_datasets": [
+      "cardiffnlp/tweet_eval (sentiment)"
+    ],
+    "description": "Mini demo dataset - curated subset for notebook demo"
+  },
+  "datasets": [
+    {
+      "dataset": "cardiffnlp/tweet_eval (sentiment)",
+      "examples": [
+        {
+          "input": "I love this product! It works great and exceeded my expectations.",
+          "output": "tweet_eval_sentiment_0",
+          "metadata_source": "cardiffnlp/tweet_eval (sentiment)",
+          "metadata_word_count": 12,
+          "metadata_shingle_count": 65,
+          "metadata_doc_id": "tweet_eval_sentiment_0"
+        },
+        {
+          "input": "This is terrible, worst purchase ever. Would not recommend to anyone.",
+          "output": "tweet_eval_sentiment_1",
+          "metadata_source": "cardiffnlp/tweet_eval (sentiment)",
+          "metadata_word_count": 11,
+          "metadata_shingle_count": 68,
+          "metadata_doc_id": "tweet_eval_sentiment_1"
+        },
+        {
+          "input": "The movie was okay, nothing special but not bad either. Average experience.",
+          "output": "tweet_eval_sentiment_2",
+          "metadata_source": "cardiffnlp/tweet_eval (sentiment)",
+          "metadata_word_count": 13,
+          "metadata_shingle_count": 72,
+          "metadata_doc_id": "tweet_eval_sentiment_2"
+        },
+        {
+          "input": "Absolutely fantastic! Best service I have ever received. Five stars!",
+          "output": "tweet_eval_sentiment_3",
+          "metadata_source": "cardiffnlp/tweet_eval (sentiment)",
+          "metadata_word_count": 12,
+          "metadata_shingle_count": 69,
+          "metadata_doc_id": "tweet_eval_sentiment_3"
+        },
+        {
+          "input": "Not worth the money. Disappointed with the quality and durability.",
+          "output": "tweet_eval_sentiment_4",
+          "metadata_source": "cardiffnlp/tweet_eval (sentiment)",
+          "metadata_word_count": 11,
+          "metadata_shingle_count": 70,
+          "metadata_doc_id": "tweet_eval_sentiment_4"
+        },
+        {
+          "input": "It arrived on time and works as described. Happy with my purchase.",
+          "output": "tweet_eval_sentiment_5",
+          "metadata_source": "cardiffnlp/tweet_eval (sentiment)",
+          "metadata_word_count": 12,
+          "metadata_shingle_count": 71,
+          "metadata_doc_id": "tweet_eval_sentiment_5"
+        },
+        {
+          "input": "Customer service was rude and unhelpful. Will never shop here again.",
+          "output": "tweet_eval_sentiment_6",
+          "metadata_source": "cardiffnlp/tweet_eval (sentiment)",
+          "metadata_word_count": 12,
+          "metadata_shingle_count": 73,
+          "metadata_doc_id": "tweet_eval_sentiment_6"
+        },
+        {
+          "input": "Great value for the price. Good quality and fast shipping. Recommended!",
+          "output": "tweet_eval_sentiment_7",
+          "metadata_source": "cardiffnlp/tweet_eval (sentiment)",
+          "metadata_word_count": 13,
+          "metadata_shingle_count": 74,
+          "metadata_doc_id": "tweet_eval_sentiment_7"
+        },
+        {
+          "input": "The packaging was damaged but the product inside is fine. Mixed feelings.",
+          "output": "tweet_eval_sentiment_8",
+          "metadata_source": "cardiffnlp/tweet_eval (sentiment)",
+          "metadata_word_count": 13,
+          "metadata_shingle_count": 75,
+          "metadata_doc_id": "tweet_eval_sentiment_8"
+        },
+        {
+          "input": "Perfect! Exactly what I was looking for. Could not be happier!",
+          "output": "tweet_eval_sentiment_9",
+          "metadata_source": "cardiffnlp/tweet_eval (sentiment)",
+          "metadata_word_count": 12,
+          "metadata_shingle_count": 67,
+          "metadata_doc_id": "tweet_eval_sentiment_9"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "datasets": {
+    "tweets": [
+      "just had the best pizza ever at downtown",
+      "can't believe liverpool won the match today",
+      "so excited for the weekend coming up",
+      "why is the weather so cold in april",
+      "love this new song on the radio",
+      "need to finish my homework before dinner",
+      "the movie last night was absolutely amazing",
+      "coffee shops are the best place to work",
+      "my dog is being very cute today playing",
+      "trying to learn python programming online"
+    ],
+    "sms": [
+      "hey can you pick up some milk on way home",
+      "dont forget about the meeting at three pm",
+      "happy birthday hope you have great day",
+      "running late will be there in ten minutes",
+      "did you see the game last night it was good",
+      "can we reschedule lunch for next week maybe",
+      "thanks for sending the documents yesterday",
+      "weather looks nice today want to go walking",
+      "congratulations on the new job promotion news",
+      "sorry i missed your call will ring back soon"
+    ],
+    "headlines": [
+      "new study shows benefits of meditation daily practice",
+      "technology companies invest billions in artificial intelligence research",
+      "climate change summit reaches agreement on emissions targets",
+      "local school wins national competition for science project",
+      "stock market reaches record high amid economic optimism growth",
+      "researchers discover potential new treatment for diabetes patients",
+      "government announces infrastructure spending plan for rural areas",
+      "sports team celebrates championship victory with city parade",
+      "film festival showcases independent movies from around world",
+      "scientists develop method to recycle plastic more efficiently"
+    ]
+  },
+  "config": {
+    "num_hashes": 32,
+    "k_shingle": 3,
+    "shingle_type": "char",
+    "num_bootstrap": 100,
+    "confidence_level": 0.95,
+    "num_document_pairs": 20,
+    "shingle_count_ranges": [[10, 30]],
+    "datasets": ["tweets"],
+    "random_seed": 42
+  },
+  "description": "Mini demo dataset with 10 documents per category (tweets, sms, headlines). Used for testing the MinHash EVT distribution verification notebook with minimal compute."
+}

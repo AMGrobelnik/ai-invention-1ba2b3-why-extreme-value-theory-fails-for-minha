@@ -1,0 +1,137 @@
+{
+  "metadata": {
+    "total_datasets": 1,
+    "total_examples": 15,
+    "source_datasets": [
+      "cardiffnlp/tweet_eval (sentiment)"
+    ],
+    "note": "Curated subset for demo purposes"
+  },
+  "datasets": [
+    {
+      "dataset": "cardiffnlp/tweet_eval (sentiment)",
+      "examples": [
+        {
+          "input": "\"Ben Smith / Smith (concussion) remains out of the lineup Thursday, Curtis #NHL #SJ\"",
+          "output": "tweet_eval_sentiment_1",
+          "metadata_source": "cardiffnlp/tweet_eval (sentiment)",
+          "metadata_word_count": 14,
+          "metadata_shingle_count": 77,
+          "metadata_doc_id": "tweet_eval_sentiment_1"
+        },
+        {
+          "input": "Sorry bout the stream last night I crashed out but will be on tonight for sure. Then back to Minecraft in pc tomorrow night.",
+          "output": "tweet_eval_sentiment_2",
+          "metadata_source": "cardiffnlp/tweet_eval (sentiment)",
+          "metadata_word_count": 24,
+          "metadata_shingle_count": 107,
+          "metadata_doc_id": "tweet_eval_sentiment_2"
+        },
+        {
+          "input": "@user LIT MY MUM 'Kerry the louboutins I wonder how many Willam owns!!! Look Kerry Warner Wednesday!'",
+          "output": "tweet_eval_sentiment_5",
+          "metadata_source": "cardiffnlp/tweet_eval (sentiment)",
+          "metadata_word_count": 17,
+          "metadata_shingle_count": 92,
+          "metadata_doc_id": "tweet_eval_sentiment_5"
+        },
+        {
+          "input": "\"\\\"\"\"\" SOUL TRAIN\\\"\"\"\" OCT 27 HALLOWEEN SPECIAL ft T.dot FINEST rocking the mic...CRAZY CACTUS NIGHT CLUB ..ADV ticket $10 wt out costume $15...\"",
+          "output": "tweet_eval_sentiment_6",
+          "metadata_source": "cardiffnlp/tweet_eval (sentiment)",
+          "metadata_word_count": 23,
+          "metadata_shingle_count": 136,
+          "metadata_doc_id": "tweet_eval_sentiment_6"
+        },
+        {
+          "input": "So disappointed in wwe summerslam! I want to see john cena wins his 16th title",
+          "output": "tweet_eval_sentiment_7",
+          "metadata_source": "cardiffnlp/tweet_eval (sentiment)",
+          "metadata_word_count": 15,
+          "metadata_shingle_count": 76,
+          "metadata_doc_id": "tweet_eval_sentiment_7"
+        },
+        {
+          "input": "\"This is the last Sunday w/o football .....,NFL is back baby\"",
+          "output": "tweet_eval_sentiment_8",
+          "metadata_source": "cardiffnlp/tweet_eval (sentiment)",
+          "metadata_word_count": 11,
+          "metadata_shingle_count": 53,
+          "metadata_doc_id": "tweet_eval_sentiment_8"
+        },
+        {
+          "input": "@user  6 tickets for Sam smith concert  Sept 30 cheap! Flew our family of 6 here fir the concert! BEYOND UPSET!",
+          "output": "tweet_eval_sentiment_14",
+          "metadata_source": "cardiffnlp/tweet_eval (sentiment)",
+          "metadata_word_count": 21,
+          "metadata_shingle_count": 102,
+          "metadata_doc_id": "tweet_eval_sentiment_14"
+        },
+        {
+          "input": "\"Fiorentina have reportedly opened talks with Chelsea over taking the 20yr old Kurt Zuoma on loan in January.\"",
+          "output": "tweet_eval_sentiment_15",
+          "metadata_source": "cardiffnlp/tweet_eval (sentiment)",
+          "metadata_word_count": 18,
+          "metadata_shingle_count": 106,
+          "metadata_doc_id": "tweet_eval_sentiment_15"
+        },
+        {
+          "input": "This time tomorrow...we'll have the Iron on. Iron Maiden pieces Drops tomorrow nights.",
+          "output": "tweet_eval_sentiment_17",
+          "metadata_source": "cardiffnlp/tweet_eval (sentiment)",
+          "metadata_word_count": 13,
+          "metadata_shingle_count": 71,
+          "metadata_doc_id": "tweet_eval_sentiment_17"
+        },
+        {
+          "input": "Vampettes we are back on the 21st place keep tweeting with the hashtag #MTVStars The Vamps #MTVStarsOf2015",
+          "output": "tweet_eval_sentiment_28",
+          "metadata_source": "cardiffnlp/tweet_eval (sentiment)",
+          "metadata_word_count": 17,
+          "metadata_shingle_count": 90,
+          "metadata_doc_id": "tweet_eval_sentiment_28"
+        },
+        {
+          "input": "\"last day of august, waiting for frank ocean to pull a beyonce.",
+          "output": "tweet_eval_sentiment_35",
+          "metadata_source": "cardiffnlp/tweet_eval (sentiment)",
+          "metadata_word_count": 12,
+          "metadata_shingle_count": 61,
+          "metadata_doc_id": "tweet_eval_sentiment_35"
+        },
+        {
+          "input": "Gucci pants himself store january lay open the span thine atomic irruptive concomitant so that cons comburent:...",
+          "output": "tweet_eval_sentiment_38",
+          "metadata_source": "cardiffnlp/tweet_eval (sentiment)",
+          "metadata_word_count": 17,
+          "metadata_shingle_count": 101,
+          "metadata_doc_id": "tweet_eval_sentiment_38"
+        },
+        {
+          "input": "I wanna see STUDIO FOOTAGE SO BAD. We are about to hear some unreleased STUFF! Likeeeeeeeeee I can\\u2019t wait until Sunday.",
+          "output": "tweet_eval_sentiment_41",
+          "metadata_source": "cardiffnlp/tweet_eval (sentiment)",
+          "metadata_word_count": 21,
+          "metadata_shingle_count": 109,
+          "metadata_doc_id": "tweet_eval_sentiment_41"
+        },
+        {
+          "input": "#days #dool Tuesday Hope has to pick up Ciara. Rafe wants a real case not just publicity like Justin",
+          "output": "tweet_eval_sentiment_48",
+          "metadata_source": "cardiffnlp/tweet_eval (sentiment)",
+          "metadata_word_count": 19,
+          "metadata_shingle_count": 96,
+          "metadata_doc_id": "tweet_eval_sentiment_48"
+        },
+        {
+          "input": "Thanks manager for putting me on the schedule for Sunday\"",
+          "output": "tweet_eval_sentiment_50",
+          "metadata_source": "cardiffnlp/tweet_eval (sentiment)",
+          "metadata_word_count": 10,
+          "metadata_shingle_count": 52,
+          "metadata_doc_id": "tweet_eval_sentiment_50"
+        }
+      ]
+    }
+  ]
+}
