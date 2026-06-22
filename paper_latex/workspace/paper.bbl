@@ -1,0 +1,65 @@
+\begin{thebibliography}{8}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Broder(1997)]{Broder1997}
+Andrei~Z. Broder.
+\newblock On the resemblance and containment of documents.
+\newblock In \emph{Proceedings of the Compression and Complexity of Sequences
+  1997}, pages 21--29. IEEE Computer Society, 1997.
+\newblock \doi{10.1109/SEQUEN.1997.666900}.
+
+\bibitem[Efron and Tibshirani(1994)]{Efron1994}
+Bradley Efron and Robert~J. Tibshirani.
+\newblock \emph{An Introduction to the Bootstrap}.
+\newblock Chapman \& Hall, New York, 1994.
+\newblock ISBN 978-0412042317.
+
+\bibitem[Ertl(2021)]{Ertl2021}
+Otmar Ertl.
+\newblock Setsketch: Filling the gap between minhash and hyperloglog.
+\newblock \emph{Proceedings of the VLDB Endowment}, 14\penalty0 (11):\penalty0
+  2244--2256, 2021.
+\newblock \doi{10.14778/3476249.3476276}.
+
+\bibitem[Fisher and Tippett(1928)]{Fisher1928}
+R.~A. Fisher and L.~H.~C. Tippett.
+\newblock Limiting forms of the frequency distribution of the largest or
+  smallest member of a sample.
+\newblock \emph{Mathematical Proceedings of the Cambridge Philosophical
+  Society}, 24:\penalty0 180--190, 1928.
+\newblock \doi{10.1017/S0305004100015681}.
+
+\bibitem[Irber and Brown(2023)]{Irber2023}
+Luiz Irber and C.~Titus Brown.
+\newblock Debiasing fracminhash and deriving confidence intervals for mutation
+  rates across a wide range of evolutionary distances.
+\newblock \emph{PLOS Computational Biology}, 19\penalty0 (12):\penalty0
+  e1010848, 2023.
+\newblock \doi{10.1371/journal.pcbi.1010848}.
+
+\bibitem[Joshi(2025)]{Joshi2025}
+Pranav Joshi.
+\newblock Sampling-based estimation of jaccard containment and similarity.
+\newblock \emph{arXiv preprint arXiv:2507.10019}, 2025.
+\newblock \doi{10.48550/arXiv.2507.10019}.
+
+\bibitem[Khan et~al.(2024)Khan, Underwood, Siebenschuh, Babuji, Ajith, Hippe,
+  Gokdemir, Brace, Chard, and Foster]{Khan2024}
+Arham Khan, Robert Underwood, Carlo Siebenschuh, Yadu Babuji, Aswathy Ajith,
+  Kyle Hippe, Ozan Gokdemir, Alexander Brace, Kyle Chard, and Ian~T. Foster.
+\newblock Lshbloom: Memory-efficient, extreme-scale document deduplication.
+\newblock \emph{arXiv preprint arXiv:2411.04257}, 2024.
+\newblock \doi{10.48550/arXiv.2411.04257}.
+
+\bibitem[Wu et~al.(2018)Wu, Li, Chen, Gao, and Zhang]{Wu2018}
+Wei Wu, Bin Li, Ling Chen, Junbin Gao, and Chengqi Zhang.
+\newblock A review for weighted minhash algorithms.
+\newblock \emph{IEEE Transactions on Knowledge and Data Engineering},
+  34\penalty0 (6):\penalty0 2553--2573, 2018.
+\newblock \doi{10.1109/TKDE.2020.3021067}.
+
+\end{thebibliography}

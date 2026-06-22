@@ -1,0 +1,14 @@
+{
+  "title": "MinHash EVT Paper: Confidence Intervals on Short Text",
+  "summary": "Successfully generated a publication-ready LaTeX paper with the following components: (1) paper.tex - Complete LaTeX source with all sections (Introduction, Related Work, Methods, Experiments, Results, Discussion, Conclusion), 3 figures from available_figures inserted at correct locations with proper aspect ratio handling (figure* for 21:9), 5 tables for results, and bibliography via references.bib. (2) paper.pdf - Compiled PDF (8 pages, 4.5MB) with no critical errors. (3) references.bib - BibTeX file with 8 references fetched via Semantic Scholar. (4) figures/ - All 3 pre-generated figure images (fig1_v0.jpg, fig2_v0.jpg, fig3_v0.jpg). The paper investigates EVT for uncertainty quantification in MinHash-based Jaccard estimation, showing EVT distributions provide poor fits (KS p-values < 10^{-20}), and evaluates 5 UQ methods with results showing Analytical Binomial (96.5%) and Bayesian (94.8%) achieve nominal coverage vs. 75.5% for Corrected Bootstrap. Compilation required installing texlive-bibtex-extra for bibtex. Visual review via pymupdf confirmed proper layout with figures on pages 5-7 and tables present throughout.",
+  "out_expected_files": {
+    "paper_tex_path": "paper.tex",
+    "paper_pdf_path": "paper.pdf",
+    "references_bib_path": "references.bib",
+    "figure_paths": [
+      "figures/fig1_v0.jpg",
+      "figures/fig2_v0.jpg",
+      "figures/fig3_v0.jpg"
+    ]
+  }
+}
