@@ -1,0 +1,67 @@
+{
+  "datasets": [
+    {
+      "dataset": "simulated_data",
+      "examples": [
+        {
+          "input": "sim_pair_0",
+          "output": "0.2777777777777778",
+          "metadata_method": "bootstrap_ci_correct",
+          "metadata_pair_id": "sim_0",
+          "predict_bootstrap_ci": "{\"point_estimate\": 0.34375, \"ci_lower\": 0.03125, \"ci_upper\": 0.34375, \"contains_true\": true}"
+        },
+        {
+          "input": "sim_pair_1",
+          "output": "0.36",
+          "metadata_method": "bootstrap_ci_correct",
+          "metadata_pair_id": "sim_1",
+          "predict_bootstrap_ci": "{\"point_estimate\": 0.4375, \"ci_lower\": 0.078125, \"ci_upper\": 0.4375, \"contains_true\": true}"
+        },
+        {
+          "input": "sim_pair_2",
+          "output": "0.08196721311475409",
+          "metadata_method": "bootstrap_ci_correct",
+          "metadata_pair_id": "sim_2",
+          "predict_bootstrap_ci": "{\"point_estimate\": 0.078125, \"ci_lower\": 0.0, \"ci_upper\": 0.140625, \"contains_true\": true}"
+        }
+      ]
+    },
+    {
+      "dataset": "real_data",
+      "examples": [
+        {
+          "input": "tweet_eval_sentiment_0__tweet_eval_sentiment_1",
+          "output": "0.07272727272727272",
+          "metadata_method": "bootstrap_ci_correct",
+          "metadata_pair_id": "real_0",
+          "predict_bootstrap_ci": "{\"point_estimate\": 0.078125, \"ci_lower\": 0.0, \"ci_upper\": 0.11757812499999964, \"ci_width\": 0.11757812499999964, \"contains_true\": true, \"contains_point\": true}"
+        },
+        {
+          "input": "tweet_eval_sentiment_1__tweet_eval_sentiment_2",
+          "output": "0.046511627906976744",
+          "metadata_method": "bootstrap_ci_correct",
+          "metadata_pair_id": "real_1",
+          "predict_bootstrap_ci": "{\"point_estimate\": 0.046875, \"ci_lower\": 0.0, \"ci_upper\": 0.078125, \"ci_width\": 0.078125, \"contains_true\": true, \"contains_point\": true}"
+        },
+        {
+          "input": "tweet_eval_sentiment_2__tweet_eval_sentiment_3",
+          "output": "0.0639269406392694",
+          "metadata_method": "bootstrap_ci_correct",
+          "metadata_pair_id": "real_2",
+          "predict_bootstrap_ci": "{\"point_estimate\": 0.09375, \"ci_lower\": 0.0, \"ci_upper\": 0.109375, \"ci_width\": 0.109375, \"contains_true\": true, \"contains_point\": true}"
+        }
+      ]
+    }
+  ],
+  "experiment_info": {
+    "description": "Bootstrap CI fix for MinHash on short text data",
+    "dataset": "tweet_eval + ag_news",
+    "num_hash_functions": 64,
+    "bootstrap_samples": 500,
+    "confidence_level": 0.95,
+    "seed": 42,
+    "coverage_rate": 0.86,
+    "target_coverage": 0.95,
+    "incorrect_method_coverage": 0.0
+  }
+}

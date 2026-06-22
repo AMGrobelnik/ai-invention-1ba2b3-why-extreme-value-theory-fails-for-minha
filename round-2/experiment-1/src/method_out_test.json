@@ -1,0 +1,14 @@
+{
+  "experiment_info": {
+    "description": "TEST RUN - Bootstrap CI fix for MinHash",
+    "test": true
+  },
+  "simulated_data_results": {
+    "coverage_rate": 0.9,
+    "num_pairs_tested": 10
+  },
+  "real_data_results": {
+    "num_pairs": 5,
+    "avg_ci_width": 0.12203124999999995
+  }
+}

@@ -1,0 +1,515 @@
+{
+  "datasets": [
+    {
+      "dataset": "simulated_data",
+      "examples": [
+        {
+          "input": "sim_pair_0",
+          "output": "0.2777777777777778",
+          "metadata_method": "bootstrap_ci_correct",
+          "metadata_pair_id": "sim_0",
+          "predict_bootstrap_ci": "{\"point_estimate\": 0.34375, \"ci_lower\": 0.03125, \"ci_upper\": 0.34375, \"contains_true\": true}"
+        },
+        {
+          "input": "sim_pair_1",
+          "output": "0.36",
+          "metadata_method": "bootstrap_ci_correct",
+          "metadata_pair_id": "sim_1",
+          "predict_bootstrap_ci": "{\"point_estimate\": 0.4375, \"ci_lower\": 0.078125, \"ci_upper\": 0.4375, \"contains_true\": true}"
+        },
+        {
+          "input": "sim_pair_2",
+          "output": "0.08196721311475409",
+          "metadata_method": "bootstrap_ci_correct",
+          "metadata_pair_id": "sim_2",
+          "predict_bootstrap_ci": "{\"point_estimate\": 0.078125, \"ci_lower\": 0.0, \"ci_upper\": 0.140625, \"contains_true\": true}"
+        },
+        {
+          "input": "sim_pair_3",
+          "output": "0.3088235294117647",
+          "metadata_method": "bootstrap_ci_correct",
+          "metadata_pair_id": "sim_3",
+          "predict_bootstrap_ci": "{\"point_estimate\": 0.28125, \"ci_lower\": 0.078125, \"ci_upper\": 0.28125, \"contains_true\": false}"
+        },
+        {
+          "input": "sim_pair_4",
+          "output": "0.04225352112676056",
+          "metadata_method": "bootstrap_ci_correct",
+          "metadata_pair_id": "sim_4",
+          "predict_bootstrap_ci": "{\"point_estimate\": 0.0625, \"ci_lower\": 0.0, \"ci_upper\": 0.078125, \"contains_true\": true}"
+        },
+        {
+          "input": "sim_pair_5",
+          "output": "0.03333333333333333",
+          "metadata_method": "bootstrap_ci_correct",
+          "metadata_pair_id": "sim_5",
+          "predict_bootstrap_ci": "{\"point_estimate\": 0.046875, \"ci_lower\": 0.0, \"ci_upper\": 0.09375, \"contains_true\": true}"
+        },
+        {
+          "input": "sim_pair_6",
+          "output": "0.08387096774193549",
+          "metadata_method": "bootstrap_ci_correct",
+          "metadata_pair_id": "sim_6",
+          "predict_bootstrap_ci": "{\"point_estimate\": 0.015625, \"ci_lower\": 0.0, \"ci_upper\": 0.125, \"contains_true\": true}"
+        },
+        {
+          "input": "sim_pair_7",
+          "output": "0.25517241379310346",
+          "metadata_method": "bootstrap_ci_correct",
+          "metadata_pair_id": "sim_7",
+          "predict_bootstrap_ci": "{\"point_estimate\": 0.28125, \"ci_lower\": 0.0625, \"ci_upper\": 0.28125, \"contains_true\": true}"
+        },
+        {
+          "input": "sim_pair_8",
+          "output": "0.07878787878787878",
+          "metadata_method": "bootstrap_ci_correct",
+          "metadata_pair_id": "sim_8",
+          "predict_bootstrap_ci": "{\"point_estimate\": 0.078125, \"ci_lower\": 0.0, \"ci_upper\": 0.125, \"contains_true\": true}"
+        },
+        {
+          "input": "sim_pair_9",
+          "output": "0.15789473684210525",
+          "metadata_method": "bootstrap_ci_correct",
+          "metadata_pair_id": "sim_9",
+          "predict_bootstrap_ci": "{\"point_estimate\": 0.203125, \"ci_lower\": 0.03125, \"ci_upper\": 0.203125, \"contains_true\": true}"
+        },
+        {
+          "input": "sim_pair_10",
+          "output": "0.21212121212121213",
+          "metadata_method": "bootstrap_ci_correct",
+          "metadata_pair_id": "sim_10",
+          "predict_bootstrap_ci": "{\"point_estimate\": 0.1875, \"ci_lower\": 0.015625, \"ci_upper\": 0.28125, \"contains_true\": true}"
+        },
+        {
+          "input": "sim_pair_11",
+          "output": "0.3559322033898305",
+          "metadata_method": "bootstrap_ci_correct",
+          "metadata_pair_id": "sim_11",
+          "predict_bootstrap_ci": "{\"point_estimate\": 0.359375, \"ci_lower\": 0.078125, \"ci_upper\": 0.359375, \"contains_true\": true}"
+        },
+        {
+          "input": "sim_pair_12",
+          "output": "0.3125",
+          "metadata_method": "bootstrap_ci_correct",
+          "metadata_pair_id": "sim_12",
+          "predict_bootstrap_ci": "{\"point_estimate\": 0.34375, \"ci_lower\": 0.078125, \"ci_upper\": 0.34375, \"contains_true\": true}"
+        },
+        {
+          "input": "sim_pair_13",
+          "output": "0.10588235294117647",
+          "metadata_method": "bootstrap_ci_correct",
+          "metadata_pair_id": "sim_13",
+          "predict_bootstrap_ci": "{\"point_estimate\": 0.046875, \"ci_lower\": 0.0, \"ci_upper\": 0.15625, \"contains_true\": true}"
+        },
+        {
+          "input": "sim_pair_14",
+          "output": "0.6153846153846154",
+          "metadata_method": "bootstrap_ci_correct",
+          "metadata_pair_id": "sim_14",
+          "predict_bootstrap_ci": "{\"point_estimate\": 0.578125, \"ci_lower\": 0.171875, \"ci_upper\": 0.578125, \"contains_true\": false}"
+        },
+        {
+          "input": "sim_pair_15",
+          "output": "0.046153846153846156",
+          "metadata_method": "bootstrap_ci_correct",
+          "metadata_pair_id": "sim_15",
+          "predict_bootstrap_ci": "{\"point_estimate\": 0.078125, \"ci_lower\": 0.0, \"ci_upper\": 0.078125, \"contains_true\": true}"
+        },
+        {
+          "input": "sim_pair_16",
+          "output": "0.04918032786885246",
+          "metadata_method": "bootstrap_ci_correct",
+          "metadata_pair_id": "sim_16",
+          "predict_bootstrap_ci": "{\"point_estimate\": 0.03125, \"ci_lower\": 0.0, \"ci_upper\": 0.08632812499999964, \"contains_true\": true}"
+        },
+        {
+          "input": "sim_pair_17",
+          "output": "0.25",
+          "metadata_method": "bootstrap_ci_correct",
+          "metadata_pair_id": "sim_17",
+          "predict_bootstrap_ci": "{\"point_estimate\": 0.234375, \"ci_lower\": 0.03125, \"ci_upper\": 0.28125, \"contains_true\": true}"
+        },
+        {
+          "input": "sim_pair_18",
+          "output": "0.3435114503816794",
+          "metadata_method": "bootstrap_ci_correct",
+          "metadata_pair_id": "sim_18",
+          "predict_bootstrap_ci": "{\"point_estimate\": 0.34375, \"ci_lower\": 0.078125, \"ci_upper\": 0.34375, \"contains_true\": true}"
+        },
+        {
+          "input": "sim_pair_19",
+          "output": "0.05426356589147287",
+          "metadata_method": "bootstrap_ci_correct",
+          "metadata_pair_id": "sim_19",
+          "predict_bootstrap_ci": "{\"point_estimate\": 0.046875, \"ci_lower\": 0.0, \"ci_upper\": 0.09375, \"contains_true\": true}"
+        },
+        {
+          "input": "sim_pair_20",
+          "output": "0.045871559633027525",
+          "metadata_method": "bootstrap_ci_correct",
+          "metadata_pair_id": "sim_20",
+          "predict_bootstrap_ci": "{\"point_estimate\": 0.03125, \"ci_lower\": 0.0, \"ci_upper\": 0.09375, \"contains_true\": true}"
+        },
+        {
+          "input": "sim_pair_21",
+          "output": "0.44525547445255476",
+          "metadata_method": "bootstrap_ci_correct",
+          "metadata_pair_id": "sim_21",
+          "predict_bootstrap_ci": "{\"point_estimate\": 0.40625, \"ci_lower\": 0.125, \"ci_upper\": 0.40625, \"contains_true\": false}"
+        },
+        {
+          "input": "sim_pair_22",
+          "output": "0.5",
+          "metadata_method": "bootstrap_ci_correct",
+          "metadata_pair_id": "sim_22",
+          "predict_bootstrap_ci": "{\"point_estimate\": 0.515625, \"ci_lower\": 0.14804687500000016, \"ci_upper\": 0.515625, \"contains_true\": true}"
+        },
+        {
+          "input": "sim_pair_23",
+          "output": "0.21739130434782608",
+          "metadata_method": "bootstrap_ci_correct",
+          "metadata_pair_id": "sim_23",
+          "predict_bootstrap_ci": "{\"point_estimate\": 0.21875, \"ci_lower\": 0.02304687500000016, \"ci_upper\": 0.28125, \"contains_true\": true}"
+        },
+        {
+          "input": "sim_pair_24",
+          "output": "0.031578947368421054",
+          "metadata_method": "bootstrap_ci_correct",
+          "metadata_pair_id": "sim_24",
+          "predict_bootstrap_ci": "{\"point_estimate\": 0.03125, \"ci_lower\": 0.0, \"ci_upper\": 0.078125, \"contains_true\": true}"
+        },
+        {
+          "input": "sim_pair_25",
+          "output": "0.36363636363636365",
+          "metadata_method": "bootstrap_ci_correct",
+          "metadata_pair_id": "sim_25",
+          "predict_bootstrap_ci": "{\"point_estimate\": 0.421875, \"ci_lower\": 0.0625, \"ci_upper\": 0.421875, \"contains_true\": true}"
+        },
+        {
+          "input": "sim_pair_26",
+          "output": "0.45454545454545453",
+          "metadata_method": "bootstrap_ci_correct",
+          "metadata_pair_id": "sim_26",
+          "predict_bootstrap_ci": "{\"point_estimate\": 0.4375, \"ci_lower\": 0.11679687500000016, \"ci_upper\": 0.4375, \"contains_true\": false}"
+        },
+        {
+          "input": "sim_pair_27",
+          "output": "0.1386861313868613",
+          "metadata_method": "bootstrap_ci_correct",
+          "metadata_pair_id": "sim_27",
+          "predict_bootstrap_ci": "{\"point_estimate\": 0.09375, \"ci_lower\": 0.015625, \"ci_upper\": 0.171875, \"contains_true\": true}"
+        },
+        {
+          "input": "sim_pair_28",
+          "output": "0.2692307692307692",
+          "metadata_method": "bootstrap_ci_correct",
+          "metadata_pair_id": "sim_28",
+          "predict_bootstrap_ci": "{\"point_estimate\": 0.375, \"ci_lower\": 0.046875, \"ci_upper\": 0.375, \"contains_true\": true}"
+        },
+        {
+          "input": "sim_pair_29",
+          "output": "0.06557377049180328",
+          "metadata_method": "bootstrap_ci_correct",
+          "metadata_pair_id": "sim_29",
+          "predict_bootstrap_ci": "{\"point_estimate\": 0.171875, \"ci_lower\": 0.0, \"ci_upper\": 0.171875, \"contains_true\": true}"
+        },
+        {
+          "input": "sim_pair_30",
+          "output": "0.08",
+          "metadata_method": "bootstrap_ci_correct",
+          "metadata_pair_id": "sim_30",
+          "predict_bootstrap_ci": "{\"point_estimate\": 0.046875, \"ci_lower\": 0.0, \"ci_upper\": 0.125, \"contains_true\": true}"
+        },
+        {
+          "input": "sim_pair_31",
+          "output": "0.3181818181818182",
+          "metadata_method": "bootstrap_ci_correct",
+          "metadata_pair_id": "sim_31",
+          "predict_bootstrap_ci": "{\"point_estimate\": 0.296875, \"ci_lower\": 0.05429687500000016, \"ci_upper\": 0.34375, \"contains_true\": true}"
+        },
+        {
+          "input": "sim_pair_32",
+          "output": "0.26153846153846155",
+          "metadata_method": "bootstrap_ci_correct",
+          "metadata_pair_id": "sim_32",
+          "predict_bootstrap_ci": "{\"point_estimate\": 0.21875, \"ci_lower\": 0.05429687500000016, \"ci_upper\": 0.27382812499999964, \"contains_true\": true}"
+        },
+        {
+          "input": "sim_pair_33",
+          "output": "0.21428571428571427",
+          "metadata_method": "bootstrap_ci_correct",
+          "metadata_pair_id": "sim_33",
+          "predict_bootstrap_ci": "{\"point_estimate\": 0.15625, \"ci_lower\": 0.03125, \"ci_upper\": 0.234375, \"contains_true\": true}"
+        },
+        {
+          "input": "sim_pair_34",
+          "output": "0.0625",
+          "metadata_method": "bootstrap_ci_correct",
+          "metadata_pair_id": "sim_34",
+          "predict_bootstrap_ci": "{\"point_estimate\": 0.0625, \"ci_lower\": 0.0, \"ci_upper\": 0.125, \"contains_true\": true}"
+        },
+        {
+          "input": "sim_pair_35",
+          "output": "0.10303030303030303",
+          "metadata_method": "bootstrap_ci_correct",
+          "metadata_pair_id": "sim_35",
+          "predict_bootstrap_ci": "{\"point_estimate\": 0.21875, \"ci_lower\": 0.0, \"ci_upper\": 0.21875, \"contains_true\": true}"
+        },
+        {
+          "input": "sim_pair_36",
+          "output": "0.07964601769911504",
+          "metadata_method": "bootstrap_ci_correct",
+          "metadata_pair_id": "sim_36",
+          "predict_bootstrap_ci": "{\"point_estimate\": 0.0625, \"ci_lower\": 0.0, \"ci_upper\": 0.140625, \"contains_true\": true}"
+        },
+        {
+          "input": "sim_pair_37",
+          "output": "0.4594594594594595",
+          "metadata_method": "bootstrap_ci_correct",
+          "metadata_pair_id": "sim_37",
+          "predict_bootstrap_ci": "{\"point_estimate\": 0.4375, \"ci_lower\": 0.08554687500000016, \"ci_upper\": 0.453125, \"contains_true\": false}"
+        },
+        {
+          "input": "sim_pair_38",
+          "output": "0.06666666666666667",
+          "metadata_method": "bootstrap_ci_correct",
+          "metadata_pair_id": "sim_38",
+          "predict_bootstrap_ci": "{\"point_estimate\": 0.03125, \"ci_lower\": 0.0, \"ci_upper\": 0.125, \"contains_true\": true}"
+        },
+        {
+          "input": "sim_pair_39",
+          "output": "0.42",
+          "metadata_method": "bootstrap_ci_correct",
+          "metadata_pair_id": "sim_39",
+          "predict_bootstrap_ci": "{\"point_estimate\": 0.390625, \"ci_lower\": 0.109375, \"ci_upper\": 0.390625, \"contains_true\": false}"
+        },
+        {
+          "input": "sim_pair_40",
+          "output": "0.09302325581395349",
+          "metadata_method": "bootstrap_ci_correct",
+          "metadata_pair_id": "sim_40",
+          "predict_bootstrap_ci": "{\"point_estimate\": 0.140625, \"ci_lower\": 0.0, \"ci_upper\": 0.140625, \"contains_true\": true}"
+        },
+        {
+          "input": "sim_pair_41",
+          "output": "0.5462184873949579",
+          "metadata_method": "bootstrap_ci_correct",
+          "metadata_pair_id": "sim_41",
+          "predict_bootstrap_ci": "{\"point_estimate\": 0.515625, \"ci_lower\": 0.171875, \"ci_upper\": 0.515625, \"contains_true\": false}"
+        },
+        {
+          "input": "sim_pair_42",
+          "output": "0.5",
+          "metadata_method": "bootstrap_ci_correct",
+          "metadata_pair_id": "sim_42",
+          "predict_bootstrap_ci": "{\"point_estimate\": 0.546875, \"ci_lower\": 0.140625, \"ci_upper\": 0.546875, \"contains_true\": true}"
+        },
+        {
+          "input": "sim_pair_43",
+          "output": "0.07792207792207792",
+          "metadata_method": "bootstrap_ci_correct",
+          "metadata_pair_id": "sim_43",
+          "predict_bootstrap_ci": "{\"point_estimate\": 0.09375, \"ci_lower\": 0.0, \"ci_upper\": 0.109375, \"contains_true\": true}"
+        },
+        {
+          "input": "sim_pair_44",
+          "output": "0.14705882352941177",
+          "metadata_method": "bootstrap_ci_correct",
+          "metadata_pair_id": "sim_44",
+          "predict_bootstrap_ci": "{\"point_estimate\": 0.21875, \"ci_lower\": 0.015625, \"ci_upper\": 0.21875, \"contains_true\": true}"
+        },
+        {
+          "input": "sim_pair_45",
+          "output": "0.05714285714285714",
+          "metadata_method": "bootstrap_ci_correct",
+          "metadata_pair_id": "sim_45",
+          "predict_bootstrap_ci": "{\"point_estimate\": 0.015625, \"ci_lower\": 0.0, \"ci_upper\": 0.109375, \"contains_true\": true}"
+        },
+        {
+          "input": "sim_pair_46",
+          "output": "0.08982035928143713",
+          "metadata_method": "bootstrap_ci_correct",
+          "metadata_pair_id": "sim_46",
+          "predict_bootstrap_ci": "{\"point_estimate\": 0.078125, \"ci_lower\": 0.0, \"ci_upper\": 0.125, \"contains_true\": true}"
+        },
+        {
+          "input": "sim_pair_47",
+          "output": "0.2129032258064516",
+          "metadata_method": "bootstrap_ci_correct",
+          "metadata_pair_id": "sim_47",
+          "predict_bootstrap_ci": "{\"point_estimate\": 0.3125, \"ci_lower\": 0.046875, \"ci_upper\": 0.3125, \"contains_true\": true}"
+        },
+        {
+          "input": "sim_pair_48",
+          "output": "0.16049382716049382",
+          "metadata_method": "bootstrap_ci_correct",
+          "metadata_pair_id": "sim_48",
+          "predict_bootstrap_ci": "{\"point_estimate\": 0.203125, \"ci_lower\": 0.03125, \"ci_upper\": 0.203125, \"contains_true\": true}"
+        },
+        {
+          "input": "sim_pair_49",
+          "output": "0.14285714285714285",
+          "metadata_method": "bootstrap_ci_correct",
+          "metadata_pair_id": "sim_49",
+          "predict_bootstrap_ci": "{\"point_estimate\": 0.15625, \"ci_lower\": 0.015625, \"ci_upper\": 0.19570312499999964, \"contains_true\": true}"
+        }
+      ]
+    },
+    {
+      "dataset": "real_data",
+      "examples": [
+        {
+          "input": "tweet_eval_sentiment_0__tweet_eval_sentiment_1",
+          "output": "0.07272727272727272",
+          "metadata_method": "bootstrap_ci_correct",
+          "metadata_pair_id": "real_0",
+          "predict_bootstrap_ci": "{\"point_estimate\": 0.078125, \"ci_lower\": 0.0, \"ci_upper\": 0.11757812499999964, \"ci_width\": 0.11757812499999964, \"contains_true\": true, \"contains_point\": true}"
+        },
+        {
+          "input": "tweet_eval_sentiment_1__tweet_eval_sentiment_2",
+          "output": "0.046511627906976744",
+          "metadata_method": "bootstrap_ci_correct",
+          "metadata_pair_id": "real_1",
+          "predict_bootstrap_ci": "{\"point_estimate\": 0.046875, \"ci_lower\": 0.0, \"ci_upper\": 0.078125, \"ci_width\": 0.078125, \"contains_true\": true, \"contains_point\": true}"
+        },
+        {
+          "input": "tweet_eval_sentiment_2__tweet_eval_sentiment_3",
+          "output": "0.0639269406392694",
+          "metadata_method": "bootstrap_ci_correct",
+          "metadata_pair_id": "real_2",
+          "predict_bootstrap_ci": "{\"point_estimate\": 0.09375, \"ci_lower\": 0.0, \"ci_upper\": 0.109375, \"ci_width\": 0.109375, \"contains_true\": true, \"contains_point\": true}"
+        },
+        {
+          "input": "tweet_eval_sentiment_3__tweet_eval_sentiment_4",
+          "output": "0.05963302752293578",
+          "metadata_method": "bootstrap_ci_correct",
+          "metadata_pair_id": "real_3",
+          "predict_bootstrap_ci": "{\"point_estimate\": 0.078125, \"ci_lower\": 0.0, \"ci_upper\": 0.09375, \"ci_width\": 0.09375, \"contains_true\": true, \"contains_point\": true}"
+        },
+        {
+          "input": "tweet_eval_sentiment_4__tweet_eval_sentiment_5",
+          "output": "0.06043956043956044",
+          "metadata_method": "bootstrap_ci_correct",
+          "metadata_pair_id": "real_4",
+          "predict_bootstrap_ci": "{\"point_estimate\": 0.109375, \"ci_lower\": 0.0, \"ci_upper\": 0.109375, \"ci_width\": 0.109375, \"contains_true\": true, \"contains_point\": true}"
+        },
+        {
+          "input": "tweet_eval_sentiment_5__tweet_eval_sentiment_6",
+          "output": "0.02262443438914027",
+          "metadata_method": "bootstrap_ci_correct",
+          "metadata_pair_id": "real_5",
+          "predict_bootstrap_ci": "{\"point_estimate\": 0.0625, \"ci_lower\": 0.0, \"ci_upper\": 0.0625, \"ci_width\": 0.0625, \"contains_true\": true, \"contains_point\": true}"
+        },
+        {
+          "input": "tweet_eval_sentiment_6__tweet_eval_sentiment_7",
+          "output": "0.009569377990430622",
+          "metadata_method": "bootstrap_ci_correct",
+          "metadata_pair_id": "real_6",
+          "predict_bootstrap_ci": "{\"point_estimate\": 0.0, \"ci_lower\": 0.0, \"ci_upper\": 0.03125, \"ci_width\": 0.03125, \"contains_true\": true, \"contains_point\": true}"
+        },
+        {
+          "input": "tweet_eval_sentiment_7__tweet_eval_sentiment_8",
+          "output": "0.023809523809523808",
+          "metadata_method": "bootstrap_ci_correct",
+          "metadata_pair_id": "real_7",
+          "predict_bootstrap_ci": "{\"point_estimate\": 0.0, \"ci_lower\": 0.0, \"ci_upper\": 0.0625, \"ci_width\": 0.0625, \"contains_true\": true, \"contains_point\": true}"
+        },
+        {
+          "input": "tweet_eval_sentiment_8__tweet_eval_sentiment_9",
+          "output": "0.025974025974025976",
+          "metadata_method": "bootstrap_ci_correct",
+          "metadata_pair_id": "real_8",
+          "predict_bootstrap_ci": "{\"point_estimate\": 0.046875, \"ci_lower\": 0.0, \"ci_upper\": 0.0625, \"ci_width\": 0.0625, \"contains_true\": true, \"contains_point\": true}"
+        },
+        {
+          "input": "tweet_eval_sentiment_9__tweet_eval_sentiment_10",
+          "output": "0.0430622009569378",
+          "metadata_method": "bootstrap_ci_correct",
+          "metadata_pair_id": "real_9",
+          "predict_bootstrap_ci": "{\"point_estimate\": 0.046875, \"ci_lower\": 0.0, \"ci_upper\": 0.078125, \"ci_width\": 0.078125, \"contains_true\": true, \"contains_point\": true}"
+        },
+        {
+          "input": "tweet_eval_emoji_0__tweet_eval_emoji_1",
+          "output": "0.006134969325153374",
+          "metadata_method": "bootstrap_ci_correct",
+          "metadata_pair_id": "real_10",
+          "predict_bootstrap_ci": "{\"point_estimate\": 0.0, \"ci_lower\": 0.0, \"ci_upper\": 0.03125, \"ci_width\": 0.03125, \"contains_true\": true, \"contains_point\": true}"
+        },
+        {
+          "input": "tweet_eval_emoji_1__tweet_eval_emoji_2",
+          "output": "0.006172839506172839",
+          "metadata_method": "bootstrap_ci_correct",
+          "metadata_pair_id": "real_11",
+          "predict_bootstrap_ci": "{\"point_estimate\": 0.0, \"ci_lower\": 0.0, \"ci_upper\": 0.03125, \"ci_width\": 0.03125, \"contains_true\": true, \"contains_point\": true}"
+        },
+        {
+          "input": "tweet_eval_emoji_2__tweet_eval_emoji_4",
+          "output": "0.0684931506849315",
+          "metadata_method": "bootstrap_ci_correct",
+          "metadata_pair_id": "real_12",
+          "predict_bootstrap_ci": "{\"point_estimate\": 0.03125, \"ci_lower\": 0.0, \"ci_upper\": 0.109375, \"ci_width\": 0.109375, \"contains_true\": true, \"contains_point\": true}"
+        },
+        {
+          "input": "tweet_eval_emoji_4__tweet_eval_emoji_6",
+          "output": "0.0072992700729927005",
+          "metadata_method": "bootstrap_ci_correct",
+          "metadata_pair_id": "real_13",
+          "predict_bootstrap_ci": "{\"point_estimate\": 0.015625, \"ci_lower\": 0.0, \"ci_upper\": 0.03125, \"ci_width\": 0.03125, \"contains_true\": true, \"contains_point\": true}"
+        },
+        {
+          "input": "tweet_eval_emoji_6__tweet_eval_emoji_7",
+          "output": "unknown",
+          "metadata_method": "bootstrap_ci_correct",
+          "metadata_pair_id": "real_14",
+          "predict_bootstrap_ci": "{\"point_estimate\": 0.0, \"ci_lower\": 0.0, \"ci_upper\": 0.0, \"ci_width\": 0.0, \"contains_true\": true, \"contains_point\": true}"
+        },
+        {
+          "input": "tweet_eval_emoji_7__tweet_eval_emoji_8",
+          "output": "unknown",
+          "metadata_method": "bootstrap_ci_correct",
+          "metadata_pair_id": "real_15",
+          "predict_bootstrap_ci": "{\"point_estimate\": 0.0, \"ci_lower\": 0.0, \"ci_upper\": 0.0, \"ci_width\": 0.0, \"contains_true\": true, \"contains_point\": true}"
+        },
+        {
+          "input": "tweet_eval_emoji_8__tweet_eval_emoji_9",
+          "output": "0.019230769230769232",
+          "metadata_method": "bootstrap_ci_correct",
+          "metadata_pair_id": "real_16",
+          "predict_bootstrap_ci": "{\"point_estimate\": 0.0, \"ci_lower\": 0.0, \"ci_upper\": 0.046875, \"ci_width\": 0.046875, \"contains_true\": true, \"contains_point\": true}"
+        },
+        {
+          "input": "tweet_eval_emoji_9__tweet_eval_emoji_10",
+          "output": "0.006578947368421052",
+          "metadata_method": "bootstrap_ci_correct",
+          "metadata_pair_id": "real_17",
+          "predict_bootstrap_ci": "{\"point_estimate\": 0.0, \"ci_lower\": 0.0, \"ci_upper\": 0.03125, \"ci_width\": 0.03125, \"contains_true\": true, \"contains_point\": true}"
+        },
+        {
+          "input": "tweet_eval_emoji_10__tweet_eval_emoji_11",
+          "output": "0.02027027027027027",
+          "metadata_method": "bootstrap_ci_correct",
+          "metadata_pair_id": "real_18",
+          "predict_bootstrap_ci": "{\"point_estimate\": 0.015625, \"ci_lower\": 0.0, \"ci_upper\": 0.046875, \"ci_width\": 0.046875, \"contains_true\": true, \"contains_point\": true}"
+        },
+        {
+          "input": "tweet_eval_emoji_11__tweet_eval_emoji_12",
+          "output": "0.007692307692307693",
+          "metadata_method": "bootstrap_ci_correct",
+          "metadata_pair_id": "real_19",
+          "predict_bootstrap_ci": "{\"point_estimate\": 0.0, \"ci_lower\": 0.0, \"ci_upper\": 0.039453124999999645, \"ci_width\": 0.039453124999999645, \"contains_true\": true, \"contains_point\": true}"
+        }
+      ]
+    }
+  ],
+  "experiment_info": {
+    "description": "Bootstrap CI fix for MinHash on short text data",
+    "dataset": "tweet_eval + ag_news",
+    "num_hash_functions": 64,
+    "bootstrap_samples": 500,
+    "confidence_level": 0.95,
+    "seed": 42,
+    "coverage_rate": 0.86,
+    "target_coverage": 0.95,
+    "incorrect_method_coverage": 0.0
+  }
+}

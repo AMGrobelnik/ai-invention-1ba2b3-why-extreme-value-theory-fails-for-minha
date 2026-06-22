@@ -1,0 +1,8 @@
+Metadata-Version: 2.4
+Name: bootstrap-ci-fix-minhash
+Version: 0.1.0
+Summary: Fix bootstrap CI implementation for MinHash on short text data
+Requires-Python: >=3.12
+Requires-Dist: loguru
+Requires-Dist: numpy
+Requires-Dist: scipy

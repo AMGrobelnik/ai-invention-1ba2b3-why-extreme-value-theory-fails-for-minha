@@ -1,0 +1,148 @@
+{
+  "metadata": {
+    "experiment": "alternative_uncertainty_quantification",
+    "timestamp": "2026-06-22T06:29:45",
+    "parameters": {
+      "k_values": [
+        64,
+        128
+      ],
+      "n_pairs": 100,
+      "n_runs": 25
+    }
+  },
+  "datasets": [
+    {
+      "dataset": "cardiffnlp/tweet_eval (sentiment)",
+      "examples": [
+        {
+          "input": "Doc i: @user @user Bryan's Australian tour is on April 2013 I just bought the tickets yesterday for the Syd... | Doc j: 7 Killed in Kabul as Bombing Rips US Security Firm At least seven people, includ...",
+          "output": "0.0",
+          "metadata_doc_i_id": "tweet_eval_sentiment_6737",
+          "metadata_doc_j_id": "fancyzhx_ag_news_14186",
+          "metadata_source": "cardiffnlp/tweet_eval (sentiment)",
+          "metadata_true_jaccard": 0.0,
+          "predict_binomial_clopper_pearson": "{\"coverage\": 1.0, \"avg_width\": 0.05600908938663651, \"k\": 64}",
+          "predict_binomial_wilson": "{\"coverage\": 1.0, \"avg_width\": 0.05662405979280535, \"k\": 64}",
+          "predict_bayesian_uniform": "{\"coverage\": 0.0, \"avg_width\": 0.05478220542771615, \"k\": 64}",
+          "predict_bayesian_length_informed": "{\"coverage\": 0.0, \"avg_width\": 0.07674071989611328, \"k\": 64}",
+          "predict_bootstrap": "{\"coverage\": 1.0, \"avg_width\": 0.0, \"k\": 64}"
+        },
+        {
+          "input": "Doc i: \"Morning news reported about ' Fukushima Daiichi ', and it's queer to hear about what's going on in ... | Doc j: Tech Briefs The United Kingdom #39;s Advertising Standards Authority, a self-reg...",
+          "output": "0.0",
+          "metadata_doc_i_id": "tweet_eval_sentiment_7759",
+          "metadata_doc_j_id": "fancyzhx_ag_news_10300",
+          "metadata_source": "cardiffnlp/tweet_eval (sentiment)",
+          "metadata_true_jaccard": 0.0,
+          "predict_binomial_clopper_pearson": "{\"coverage\": 1.0, \"avg_width\": 0.05600908938663651, \"k\": 64}",
+          "predict_binomial_wilson": "{\"coverage\": 1.0, \"avg_width\": 0.05662405979280535, \"k\": 64}",
+          "predict_bayesian_uniform": "{\"coverage\": 0.0, \"avg_width\": 0.05478220542771615, \"k\": 64}",
+          "predict_bayesian_length_informed": "{\"coverage\": 0.0, \"avg_width\": 0.07674071989611328, \"k\": 64}",
+          "predict_bootstrap": "{\"coverage\": 1.0, \"avg_width\": 0.0, \"k\": 64}"
+        },
+        {
+          "input": "Doc i: Today should be on Nike tomorrow Glasgow to Edinburgh cycle so won't see Monday work so will miss it... | Doc j: A girl walks into a store... #FreePeople @ Downtown Sonora...",
+          "output": "0.0",
+          "metadata_doc_i_id": "tweet_eval_sentiment_8339",
+          "metadata_doc_j_id": "tweet_eval_emoji_12461",
+          "metadata_source": "cardiffnlp/tweet_eval (sentiment)",
+          "metadata_true_jaccard": 0.0,
+          "predict_binomial_clopper_pearson": "{\"coverage\": 1.0, \"avg_width\": 0.05600908938663651, \"k\": 64}",
+          "predict_binomial_wilson": "{\"coverage\": 1.0, \"avg_width\": 0.05662405979280535, \"k\": 64}",
+          "predict_bayesian_uniform": "{\"coverage\": 0.0, \"avg_width\": 0.05478220542771615, \"k\": 64}",
+          "predict_bayesian_length_informed": "{\"coverage\": 0.0, \"avg_width\": 0.05478220542771615, \"k\": 64}",
+          "predict_bootstrap": "{\"coverage\": 1.0, \"avg_width\": 0.0, \"k\": 64}"
+        }
+      ]
+    },
+    {
+      "dataset": "cardiffnlp/tweet_eval (emoji)",
+      "examples": [
+        {
+          "input": "Doc i: Hey @user is it okay to \"Accidentally\" trip a child... | Doc j: #FreePlayTour Show # 2. In #Lompac at johnnysbg we finna have the city on fire #shoutout my\u2026...",
+          "output": "0.0",
+          "metadata_doc_i_id": "tweet_eval_emoji_8276",
+          "metadata_doc_j_id": "tweet_eval_emoji_6456",
+          "metadata_source": "cardiffnlp/tweet_eval (emoji)",
+          "metadata_true_jaccard": 0.0,
+          "predict_binomial_clopper_pearson": "{\"coverage\": 1.0, \"avg_width\": 0.05600908938663651, \"k\": 64}",
+          "predict_binomial_wilson": "{\"coverage\": 1.0, \"avg_width\": 0.05662405979280535, \"k\": 64}",
+          "predict_bayesian_uniform": "{\"coverage\": 0.0, \"avg_width\": 0.05478220542771615, \"k\": 64}",
+          "predict_bayesian_length_informed": "{\"coverage\": 0.0, \"avg_width\": 0.05478220542771615, \"k\": 64}",
+          "predict_bootstrap": "{\"coverage\": 1.0, \"avg_width\": 0.0, \"k\": 64}"
+        },
+        {
+          "input": "Doc i: Sometimes, we need to be hurt in order to grow @ Big Dipper... | Doc j: Willingham Won't Return to Kansas State (AP) AP - Point guard Dez Willingham won't be back for his s...",
+          "output": "0.0",
+          "metadata_doc_i_id": "tweet_eval_emoji_748",
+          "metadata_doc_j_id": "fancyzhx_ag_news_7686",
+          "metadata_source": "cardiffnlp/tweet_eval (emoji)",
+          "metadata_true_jaccard": 0.0,
+          "predict_binomial_clopper_pearson": "{\"coverage\": 1.0, \"avg_width\": 0.05600908938663651, \"k\": 64}",
+          "predict_binomial_wilson": "{\"coverage\": 1.0, \"avg_width\": 0.05662405979280535, \"k\": 64}",
+          "predict_bayesian_uniform": "{\"coverage\": 0.0, \"avg_width\": 0.05478220542771615, \"k\": 64}",
+          "predict_bayesian_length_informed": "{\"coverage\": 0.0, \"avg_width\": 0.05478220542771615, \"k\": 64}",
+          "predict_bootstrap": "{\"coverage\": 1.0, \"avg_width\": 0.0, \"k\": 64}"
+        },
+        {
+          "input": "Doc i: #ChristmasEve #Selfie Smiling cause I'm lovin this weather tho #sweaterweather @ Moreno Valley,\u2026... | Doc j: @user thanks for a great time @user @ Fonda Theatre...",
+          "output": "0.0",
+          "metadata_doc_i_id": "tweet_eval_emoji_10037",
+          "metadata_doc_j_id": "tweet_eval_emoji_7114",
+          "metadata_source": "cardiffnlp/tweet_eval (emoji)",
+          "metadata_true_jaccard": 0.0,
+          "predict_binomial_clopper_pearson": "{\"coverage\": 1.0, \"avg_width\": 0.05600908938663651, \"k\": 64}",
+          "predict_binomial_wilson": "{\"coverage\": 1.0, \"avg_width\": 0.05662405979280535, \"k\": 64}",
+          "predict_bayesian_uniform": "{\"coverage\": 0.0, \"avg_width\": 0.05478220542771615, \"k\": 64}",
+          "predict_bayesian_length_informed": "{\"coverage\": 0.0, \"avg_width\": 0.05478220542771615, \"k\": 64}",
+          "predict_bootstrap": "{\"coverage\": 1.0, \"avg_width\": 0.0, \"k\": 64}"
+        }
+      ]
+    },
+    {
+      "dataset": "fancyzhx/ag_news",
+      "examples": [
+        {
+          "input": "Doc i: Speculators driving up oil prices says Kuwait NEW DELHI: Kuwait #39;s foreign minister said yesterda... | Doc j: I'll gladly accept tickets to the Colts game this Sunday...",
+          "output": "0.0",
+          "metadata_doc_i_id": "fancyzhx_ag_news_10154",
+          "metadata_doc_j_id": "tweet_eval_sentiment_4413",
+          "metadata_source": "fancyzhx/ag_news",
+          "metadata_true_jaccard": 0.0,
+          "predict_binomial_clopper_pearson": "{\"coverage\": 1.0, \"avg_width\": 0.05600908938663651, \"k\": 64}",
+          "predict_binomial_wilson": "{\"coverage\": 1.0, \"avg_width\": 0.05662405979280535, \"k\": 64}",
+          "predict_bayesian_uniform": "{\"coverage\": 0.0, \"avg_width\": 0.05478220542771615, \"k\": 64}",
+          "predict_bayesian_length_informed": "{\"coverage\": 0.0, \"avg_width\": 0.07674071989611328, \"k\": 64}",
+          "predict_bootstrap": "{\"coverage\": 1.0, \"avg_width\": 0.0, \"k\": 64}"
+        },
+        {
+          "input": "Doc i: Microsoft Releases MOM 2005 To Manufacturing Channel partners say the release of enterprise and SMB ... | Doc j: Williams stunned by Belarus runner Lauryn Williams never saw her coming. Not as ...",
+          "output": "0.0",
+          "metadata_doc_i_id": "fancyzhx_ag_news_9923",
+          "metadata_doc_j_id": "fancyzhx_ag_news_6194",
+          "metadata_source": "fancyzhx/ag_news",
+          "metadata_true_jaccard": 0.0,
+          "predict_binomial_clopper_pearson": "{\"coverage\": 1.0, \"avg_width\": 0.05600908938663651, \"k\": 64}",
+          "predict_binomial_wilson": "{\"coverage\": 1.0, \"avg_width\": 0.05662405979280535, \"k\": 64}",
+          "predict_bayesian_uniform": "{\"coverage\": 0.0, \"avg_width\": 0.05478220542771615, \"k\": 64}",
+          "predict_bayesian_length_informed": "{\"coverage\": 0.0, \"avg_width\": 0.07674071989611328, \"k\": 64}",
+          "predict_bootstrap": "{\"coverage\": 1.0, \"avg_width\": 0.0, \"k\": 64}"
+        },
+        {
+          "input": "Doc i: Greek pair jump to avoid push The Greek sprinters Kostantinos Kenteris and Ekaterini Thanou  facing ... | Doc j: \"Whoever The U hires as HC, Curtis at least deserves a coordinator look. Recruit...",
+          "output": "0.0",
+          "metadata_doc_i_id": "fancyzhx_ag_news_3366",
+          "metadata_doc_j_id": "tweet_eval_sentiment_3392",
+          "metadata_source": "fancyzhx/ag_news",
+          "metadata_true_jaccard": 0.0,
+          "predict_binomial_clopper_pearson": "{\"coverage\": 1.0, \"avg_width\": 0.05600908938663651, \"k\": 64}",
+          "predict_binomial_wilson": "{\"coverage\": 1.0, \"avg_width\": 0.05662405979280535, \"k\": 64}",
+          "predict_bayesian_uniform": "{\"coverage\": 0.0, \"avg_width\": 0.05478220542771615, \"k\": 64}",
+          "predict_bayesian_length_informed": "{\"coverage\": 0.0, \"avg_width\": 0.07674071989611328, \"k\": 64}",
+          "predict_bootstrap": "{\"coverage\": 1.0, \"avg_width\": 0.0, \"k\": 64}"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+[project]
+name = "bootstrap-ci-fix-minhash"
+version = "0.1.0"
+description = "Fix bootstrap CI implementation for MinHash on short text data"
+requires-python = ">=3.12"
+dependencies = [
+    "loguru==0.7.3",
+    "numpy==2.4.6",
+    "scipy==1.18.0",
+]

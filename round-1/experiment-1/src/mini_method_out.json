@@ -1,0 +1,229 @@
+{
+  "metadata": {
+    "experiment_config": {
+      "num_hashes": 128,
+      "k_shingle": 3,
+      "shingle_type": "char",
+      "num_bootstrap": 1000,
+      "confidence_level": 0.95,
+      "num_document_pairs": 1000,
+      "shingle_count_ranges": [
+        [
+          10,
+          30
+        ],
+        [
+          30,
+          50
+        ],
+        [
+          50,
+          70
+        ],
+        [
+          70,
+          100
+        ]
+      ],
+      "datasets": [
+        "tweets",
+        "sms",
+        "headlines"
+      ],
+      "random_seed": 42
+    },
+    "gumbel_fit_results": [
+      {
+        "distribution": "gumbel",
+        "loc": 0.0005114620464631569,
+        "scale": 0.0001630143978489018,
+        "ks_statistic": 0.17630175873558354,
+        "ks_pvalue": 1.578380565341222e-28,
+        "ad_statistic": 53.58764268599725,
+        "ad_critical_values": [
+          0.471,
+          0.633,
+          0.752,
+          0.872,
+          1.032
+        ],
+        "ad_significance_level": [
+          25.0,
+          10.0,
+          5.0,
+          2.5,
+          1.0
+        ],
+        "num_samples": 1032,
+        "selected": "gumbel",
+        "dataset": "tweets",
+        "shingle_range": [
+          10,
+          30
+        ],
+        "gumbel_ks_pvalue": 1.578380565341222e-28,
+        "weibull_ks_pvalue": 1.5072480496846278e-44
+      },
+      {
+        "distribution": "gumbel",
+        "loc": 0.0003319733639618935,
+        "scale": 0.00020607619689741439,
+        "ks_statistic": 0.3036487094470496,
+        "ks_pvalue": 4.005398225713254e-164,
+        "ad_statistic": 243.99931748437803,
+        "ad_critical_values": [
+          0.472,
+          0.634,
+          0.754,
+          0.873,
+          1.033
+        ],
+        "ad_significance_level": [
+          25.0,
+          10.0,
+          5.0,
+          2.5,
+          1.0
+        ],
+        "num_samples": 2000,
+        "selected": "gumbel",
+        "dataset": "tweets",
+        "shingle_range": [
+          30,
+          50
+        ],
+        "gumbel_ks_pvalue": 4.005398225713254e-164,
+        "weibull_ks_pvalue": 1.1917675554363027e-182
+      },
+      {
+        "distribution": "weibull",
+        "shape": 2.143675792117271,
+        "loc": 0.0,
+        "scale": 0.0008249845408307948,
+        "ks_statistic": 0.48004717959916715,
+        "ks_pvalue": 3.554075747252461e-275,
+        "num_samples": 1296,
+        "selected": "weibull",
+        "dataset": "sms",
+        "shingle_range": [
+          10,
+          30
+        ],
+        "gumbel_ks_pvalue": 3.5527576285270564e-275,
+        "weibull_ks_pvalue": 3.554075747252461e-275
+      },
+      {
+        "distribution": "weibull",
+        "shape": 1.3411838902917013,
+        "loc": 0.0,
+        "scale": 0.00045362710979733286,
+        "ks_statistic": 0.24600158616113765,
+        "ks_pvalue": 4.473911926524999e-107,
+        "num_samples": 2000,
+        "selected": "weibull",
+        "dataset": "sms",
+        "shingle_range": [
+          30,
+          50
+        ],
+        "gumbel_ks_pvalue": 4.4936719924908605e-108,
+        "weibull_ks_pvalue": 4.473911926524999e-107
+      },
+      {
+        "distribution": "gumbel",
+        "loc": 0.000513881081802576,
+        "scale": 0.00035249230878432725,
+        "ks_statistic": 0.23518509931497456,
+        "ks_pvalue": 2.818499999908487e-51,
+        "ad_statistic": 63.34885733214605,
+        "ad_critical_values": [
+          0.471,
+          0.633,
+          0.752,
+          0.872,
+          1.032
+        ],
+        "ad_significance_level": [
+          25.0,
+          10.0,
+          5.0,
+          2.5,
+          1.0
+        ],
+        "num_samples": 1044,
+        "selected": "gumbel",
+        "dataset": "headlines",
+        "shingle_range": [
+          10,
+          30
+        ],
+        "gumbel_ks_pvalue": 2.818499999908487e-51,
+        "weibull_ks_pvalue": 1.3242614061845548e-55
+      },
+      {
+        "distribution": "weibull",
+        "shape": 1.070297723905819,
+        "loc": 0.0,
+        "scale": 0.00023220432459543887,
+        "ks_statistic": 0.15138647938793748,
+        "ks_pvalue": 1.7525771424748725e-40,
+        "num_samples": 2000,
+        "selected": "weibull",
+        "dataset": "headlines",
+        "shingle_range": [
+          30,
+          50
+        ],
+        "gumbel_ks_pvalue": 1.6733252010759387e-156,
+        "weibull_ks_pvalue": 1.7525771424748725e-40
+      }
+    ],
+    "computational_cost": {
+      "minhash_signature": 0.007299482822418213,
+      "bootstrap_ci_100": 0.003651881217956543,
+      "bootstrap_ci_1000": 0.03651881217956543
+    },
+    "visualizations": [
+      "distribution_qq_tweets_10_30.png",
+      "distribution_qq_tweets_30_50.png",
+      "distribution_qq_sms_10_30.png",
+      "distribution_qq_sms_30_50.png",
+      "distribution_qq_headlines_10_30.png",
+      "distribution_qq_headlines_30_50.png"
+    ]
+  },
+  "datasets": [
+    {
+      "dataset": "minhash_experiment",
+      "examples": [
+        {
+          "input": "Document pair 0: jaccard=0.714",
+          "output": "MinHash=0.672, CI=[0.207, 0.520]",
+          "metadata_dataset": "tweets",
+          "metadata_shingle_range": "[10, 30]",
+          "predict_minhash": "0.671875",
+          "predict_bootstrap_lower": "0.20689655172413793",
+          "predict_bootstrap_upper": "0.5203333333333331"
+        },
+        {
+          "input": "Document pair 1: jaccard=0.828",
+          "output": "MinHash=0.844, CI=[0.250, 0.583]",
+          "metadata_dataset": "tweets",
+          "metadata_shingle_range": "[10, 30]",
+          "predict_minhash": "0.84375",
+          "predict_bootstrap_lower": "0.25",
+          "predict_bootstrap_upper": "0.5833333333333334"
+        },
+        {
+          "input": "Document pair 2: jaccard=0.833",
+          "output": "MinHash=0.844, CI=[0.240, 0.583]",
+          "metadata_dataset": "tweets",
+          "metadata_shingle_range": "[10, 30]",
+          "predict_minhash": "0.84375",
+          "predict_bootstrap_lower": "0.24",
+          "predict_bootstrap_upper": "0.5833333333333334"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Comprehensive Evaluation of UQ Methods for MinHash Jaccard Estimates",
+  "layman_summary": "Evaluates 5 methods for computing confidence intervals on MinHash similarity estimates for short text documents, finding that analytical and Bayesian approaches work best.",
+  "summary": "This evaluation compares 5 uncertainty quantification methods (EVT-Gumbel, EVT-Weibull, Corrected Bootstrap, Analytical Binomial, Bayesian) for MinHash Jaccard estimates on short text (10-100 shingles). The evaluation processed 3000 document pairs from 3 datasets (tweets, SMS, headlines). Key findings: (1) Analytical Binomial and Bayesian methods achieve 96.5% and 94.8% coverage respectively (within 2% of 95% target), (2) EVT methods achieve acceptable coverage but are theoretically unjustified for short text, (3) Corrected Bootstrap only achieves 75.5% coverage with 1000 resamples. Output includes eval_out.json (validated against exp_eval_sol_out schema), 6 figures (coverage probability, CI width, coverage by regime, bias distribution, CI width vs shingle count, computational cost), 3 tables (coverage, CI width stats, bias/RMSE), and practitioner guidelines. The evaluation supports the hypothesis that practitioners should use analytical binomial or Bayesian methods for MinHash uncertainty quantification on short text.",
+  "out_expected_files": {
+    "script": "eval.py",
+    "full_output": "full_eval_out.json",
+    "mini_output": "mini_eval_out.json",
+    "preview_output": "preview_eval_out.json"
+  },
+  "upload_ignore_regexes": []
+}

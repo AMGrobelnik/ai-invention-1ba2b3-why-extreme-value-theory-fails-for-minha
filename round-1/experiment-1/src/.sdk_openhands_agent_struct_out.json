@@ -1,0 +1,12 @@
+{
+  "title": "EVT-MinHash Distribution Verification and Bootstrap Baseline for Short Text Documents",
+  "layman_summary": "Tested whether MinHash signature values follow extreme value distributions for short text documents, implemented bootstrap confidence intervals for Jaccard similarity, and compared computational costs.",
+  "summary": "This experiment empirically verified whether MinHash signature minima follow Gumbel or Weibull distributions for short text documents (10-100 character shingles). The implementation includes: (1) MinHash with 128 hash functions using MD5, (2) Gumbel and Weibull distribution fitting with KS-test goodness-of-fit, (3) Bootstrap confidence intervals for Jaccard similarity with 1000 resamples, (4) Computational cost comparison. Key findings: Neither Gumbel nor Weibull distributions fit well (KS p-values < 0.05), suggesting EVT assumptions may not hold for MinHash with short text. The experiment processed 2000 synthetic documents across 3 datasets (tweets, SMS, headlines) with 1000 document pairs. Output includes distribution fit results (6 entries), bootstrap CI results (600 pairs), computational cost metrics, and 6 visualization files (QQ plots, histograms).",
+  "out_expected_files": {
+    "script": "method.py",
+    "full_output": "full_method_out.json",
+    "mini_output": "mini_method_out.json",
+    "preview_output": "preview_method_out.json"
+  },
+  "upload_ignore_regexes": []
+}

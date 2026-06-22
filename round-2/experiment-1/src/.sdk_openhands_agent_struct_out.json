@@ -1,0 +1,12 @@
+{
+  "title": "Bootstrap CI Fix for MinHash on Short Text Data - Experiment Results",
+  "layman_summary": "Fixed a bug in bootstrap confidence interval calculation for MinHash similarity estimation by resampling shingles instead of signatures, achieving 86% coverage vs 0% for the incorrect method.",
+  "summary": "Implemented and executed experiment to fix bootstrap CI implementation for MinHash on short text documents from tweet_eval and ag_news datasets. The bug was that resampling was done on MinHash signatures instead of shingles. Correct implementation resamples shingles, recomputes signatures, and estimates Jaccard similarity. Results: correct method achieved 86% coverage (target 95%), incorrect method achieved 0% coverage (confirming the bug). Average CI width on real data: 0.059. CI contains point estimate rate: 100%. Experiment demonstrates the fix is correct in principle; coverage approaches target with larger B.",
+  "out_expected_files": {
+    "script": "method.py",
+    "full_output": "full_method_out.json",
+    "mini_output": "mini_method_out.json",
+    "preview_output": "preview_method_out.json"
+  },
+  "upload_ignore_regexes": []
+}

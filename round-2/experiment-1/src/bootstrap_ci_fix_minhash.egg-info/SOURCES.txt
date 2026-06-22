@@ -1,0 +1,7 @@
+method.py
+pyproject.toml
+bootstrap_ci_fix_minhash.egg-info/PKG-INFO
+bootstrap_ci_fix_minhash.egg-info/SOURCES.txt
+bootstrap_ci_fix_minhash.egg-info/dependency_links.txt
+bootstrap_ci_fix_minhash.egg-info/requires.txt
+bootstrap_ci_fix_minhash.egg-info/top_level.txt
